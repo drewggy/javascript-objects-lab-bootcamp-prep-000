@@ -4,17 +4,17 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   return obj;
 }
 
-/*
 function updateObjectWithKeyAndValue(obj, key, value){
+  var newObj = Object.assign({}, obj);
   var oldKey oldValue;
 
-  if (obj[key]){
-    oldKey = key;
-    oldValue = value;
-    delete obj[key];
-  }
-  obj[key]=value;
-  return key, value, oldKey, oldValue;
+//  if (obj[key]){
+//    oldKey = key;
+//    oldValue = value;
+//    delete obj[key];
+//  }
+  newObj[key]=value;
+  return newObj;
 }
 */
 
