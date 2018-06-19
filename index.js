@@ -13,7 +13,7 @@ function updateObjectWithKeyAndValue(obj, key, value){
 //    oldValue = value;
 //    delete obj[key];
 //  }
-  newObj[key]=value;
+  //newObj[key]=value;
   return newObj;
 }
 
