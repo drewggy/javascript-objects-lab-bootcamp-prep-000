@@ -13,8 +13,8 @@ function updateObjectWithKeyAndValue(obj, key, value){
 //    oldValue = value;
 //    delete obj[key];
 //  }
-  //newObj[key]=value;
-  return newObj;
+  newObj[key]=value;
+  return obj;
 }
 
 var recipes = {};
