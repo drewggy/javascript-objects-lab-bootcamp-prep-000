@@ -14,7 +14,7 @@ function updateObjectWithKeyAndValue(obj, key, value){
 //    delete obj[key];
 //  }
   newObj[key]=value;
-  return obj;
+  return newObj;
 }
 
 var recipes = {};
