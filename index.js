@@ -26,4 +26,4 @@ recipes['cake']="more of that";
 
 
 
-console.log(JSON.stringify(destructivelyUpdateObjectWithKeyAndValue(recipes,'pie',"much more of that"));
+console.log(JSON.stringify(destructivelyUpdateObjectWithKeyAndValue(recipes,'pie',"much more of that")));
