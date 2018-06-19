@@ -27,3 +27,4 @@ recipes['cake']="more of that";
 
 
 console.log(JSON.stringify(destructivelyUpdateObjectWithKeyAndValue(recipes,'pie',"much more of that")));
+console.log(JSON.stringify(updateObjectWithKeyAndValue(recipes,'tart',"more of this, less of that")));
